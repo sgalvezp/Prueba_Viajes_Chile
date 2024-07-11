@@ -7,8 +7,12 @@
     "slnt" 0;
 }
 
+body{
+    background-color: black !important; 
+    color: white !important;
+}
 
-/* Carrusel */
+/* Barra de navegación */
 
 .margen-logo{
     margin-left: 10%;
@@ -21,3 +25,31 @@
 .navbar {
     background-color: rgba(0, 0, 0, 0);
 }
+
+
+/* Sección Quienes Somos */
+
+.titulo{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.quienes-somos{
+    text-align: center;
+}
+
+.hr-somos{
+    background-color: deepskyblue;
+    height: 1px;
+}
+
+.lorem-ipsum{
+    text-align: left;
+    font-size: 14px;
+}
+
+.iconos {
+    background-color: deepskyblue;
+    height: 2.5em;   
+}
+
