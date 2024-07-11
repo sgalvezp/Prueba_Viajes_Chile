@@ -12,6 +12,7 @@ body{
     color: white !important;
 }
 
+
 /* Barra de navegación */
 
 .margen-logo{
@@ -53,9 +54,7 @@ hr{
 }
 
 
-/* Tarjetas */
-
-
+/* Destacados */
 
 .card {
     text-align: left;
@@ -81,3 +80,13 @@ hr{
     object-fit: cover;
 }
 
+/* Contacto */
+
+.contacto {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.btn {
+    background-color: deepskyblue !important;
+}
