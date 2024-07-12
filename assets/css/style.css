@@ -90,3 +90,30 @@ hr{
 .btn {
     background-color: deepskyblue !important;
 }
+
+/* Pie de página */
+
+footer {
+    background-color: deepskyblue;
+    height: 80px;    
+}
+
+.pie {
+    display: flex;
+    font-size: 30px;
+    font-weight: 300;
+    margin-right: 20%;
+}
+
+.viajes {
+    margin-left: 20%;
+}
+
+.iconos {
+    text-align: right;
+}
+
+.iconos a {
+    color: white; 
+    text-decoration: none; 
+}
