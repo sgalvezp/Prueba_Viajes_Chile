@@ -14,7 +14,15 @@ $(document).ready(function () {
         }
     });
 
+    $("#enviar").on('click', function (event) {
+        alert("¡Gracias por comunicarte con nosotros!");    //agradece mediante alert
+        $("#exampleFormControlInput1").val("");             //borra el nombre del formulario 
+        $("#exampleFormControlInput2").val("");             //borra el asunto del formulario
+        $("#exampleFormControlTextarea1").val("");          //borra el mensaje
+    });
 });
+
+
 
 
 
