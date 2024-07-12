@@ -72,13 +72,18 @@ hr{
     font-weight: 400;
 }
 
+.tarjeta {
+    height: 300px !important;
+}
+
 .img-tarjeta {
     border-top-left-radius: 0 !important;  /* Deja esquinas rectas, no curvas*/
     border-top-right-radius: 0 !important;
     width: 100%;
-    height: 150px;
+    height: 140px;
     object-fit: cover;
 }
+
 
 /* Contacto */
 
@@ -95,18 +100,16 @@ hr{
 
 footer {
     background-color: deepskyblue;
-    height: 80px;    
+  
 }
 
 .pie {
     display: flex;
+    justify-content: center;
     font-size: 30px;
     font-weight: 300;
-    margin-right: 20%;
-}
-
-.viajes {
     margin-left: 20%;
+    margin-right: 20%;
 }
 
 .iconos {
@@ -116,4 +119,20 @@ footer {
 .iconos a {                         /* Devuelve color blanco a iconos */
     color: white; 
     text-decoration: none; 
+}
+
+@media (max-width: 992px) {         /* Centra elementos del footer en version movil */
+    .pie {
+        margin: 0; 
+        justify-content: center; 
+        text-align: center; 
+    }
+    .iconos {
+        text-align: center; 
+    }
+    /* Ectópico de sección Destacados*/
+    .tarjeta {                    /* Centra tarjetas en versión movil*/  
+        margin-left: auto;      
+        margin-right: auto;
+    }
 }

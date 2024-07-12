@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
     $("a").on('click', function (event) {   //click en opciones del menú
         if (this.hash !== "") {             //asegura precencia de link
@@ -6,10 +7,15 @@ $(document).ready(function () {
 
             $('html, body').animate({           
                 scrollTop: $(hash).offset().top  //smooth scroll 
-            }, 800, function () {
+            }, 1000, function () {
                 
                 window.location.hash = hash;     //cambia url
             });
         }
     });
+
 });
+
+
+
+
